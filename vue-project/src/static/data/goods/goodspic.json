@@ -1,0 +1,14 @@
+{
+  "status":0,
+  "message":[
+    {
+      "src":"/src/static/img/goods/huaweiP20.jpg"
+    },
+    {
+      "src":"/src/static/img/goods/iphone8.jpg"
+    },
+    {
+      "src":"/src/static/img/goods/xiaomi8.jpg"
+    }
+  ]
+}

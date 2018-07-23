@@ -1,0 +1,38 @@
+{
+  "status":0,
+  "message":[
+    {
+      "id":87,
+      "title":"Huawei/华为 P20",
+      "add_time":"2018-07-19T14:31:32.000Z",
+      "zhaiyao":"产品参数：证书编号：2018011606048695 证书状态：有效 产品名称：TD-LTE数字移动电话机3C 规格型号：EML-AL00（开关电源适配器：HW-050450C00 输出：5VDC，2A或4.5VDC，5A... 产品名称：Huawei/华为 P20 华为型号: P20 机身颜色: 宝石蓝 香槟金 渐变樱粉金 渐变极光色 亮黑色运行 内存RAM: 6GB 存储容量: 64GB 128GB",
+      "click":0,
+      "img_url":"/src/static/img/goods/huaweiP20.jpg",
+      "sell_price":3788,
+      "market_price":3988,
+      "stock_quantity":60
+    },
+    {
+      "id":88,
+      "title":"Apple/苹果 iPhone 8 Plus",
+      "add_time":"2018-06-19T14:31:32.000Z",
+      "zhaiyao":"产品参数：证书编号：2017011606009777 证书状态：有效 产品名称：TD-LTE 数字移动电话机3C规格型号：A1899(电源适配器可选：A1443 输出：5.0VDC 1A)产品名称：Apple/苹果 iPhone 8 Plu...Apple型号: iPhone 8 Plus机身颜色: 银色 金色 深空灰色运行内存RAM: 不详存储容量: 64GB网络模式: 不详",
+      "click":10,
+      "img_url":"/src/static/img/goods/iphone8.jpg",
+      "sell_price":5338,
+      "market_price":5588,
+      "stock_quantity":70
+    },
+    {
+      "id":89,
+      "title":"Xiaomi/小米 小米8 小米8",
+      "add_time":"2018-08-19T14:31:32.000Z",
+      "zhaiyao":"产品参数：证书编号：2018011606074007证书状态：有效产品名称：TD-LTE数字移动电话机3C规格型号：M1803E1A、M1803E1T、M1803E1C (电源适配器：MDY-08-ES 输出：5Vd...产品名称：Xiaomi/小米 小米8 型号: 小米8机身颜色: 白色 黑色 金色 蓝色运行内存RAM: 6G存储容量: 6+64GB 6+128GB 6+256GB网络模式: 双卡双待",
+      "click":20,
+      "img_url":"/src/static/img/goods/xiaomi8.jpg",
+      "sell_price":2999,
+      "market_price":3199,
+      "stock_quantity":50
+    }
+    ]
+  }

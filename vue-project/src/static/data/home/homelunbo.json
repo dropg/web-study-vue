@@ -1,0 +1,14 @@
+{
+  "status":0,
+  "message":[
+    {
+      "src":"/src/static/img/a.jpg"
+    },
+    {
+      "src":"/src/static/img/b.jpg"
+    },
+    {
+      "src":"/src/static/img/c.jpg"
+    }
+  ]
+}
