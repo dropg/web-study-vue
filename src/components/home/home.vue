@@ -94,27 +94,27 @@
     }
 
     .mui-icon-home{
-        background-image:url(../../static/img/news.png);
+        background-image:url(/src/static/img/news.png);
         background-repeat: round;
     }
     .mui-icon-email{
-        background-image:url(../../static/img/picShare.png);
+        background-image:url(/src/static/img/picShare.png);
         background-repeat: round;
     }
     .mui-icon-chatbubble{
-        background-image:url(../../static/img/goodShow.png);
+        background-image:url(/src/static/img/goodShow.png);
         background-repeat: round;
     }
     .mui-icon-location{
-        background-image:url(../../static/img/feedback.png);
+        background-image:url(/src/static/img/feedback.png);
         background-repeat: round;
     }
     .mui-icon-search{
-        background-image:url(../../static/img/search.png);
+        background-image:url(/src/static/img/search.png);
         background-repeat: round;
     }
     .mui-icon-phone{
-        background-image:url(../../static/img/callme.png);
+        background-image:url(/src/static/img/callme.png);
         background-repeat: round;
     }
 
