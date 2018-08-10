@@ -1,4 +1,32 @@
-### 安装包依赖
+### Installation dependency package
+1. Webpack related package: webpack,html-webpack-plugin
+2. Packages required for CSS styles: css-loader,style-loader,Less,Less-loader,autoprefixer-loader,mint-ui
+3. Packages needed for compile ES6: babel-loader,babel-core,babel-preset-es2015,babel-plugin-transform-runtime
+4. File and path: url-loader,file-loader
+5. Compile the vue: vue-loader,vue-template-compiler,vue-preview,vue,vue-router
+6. Get the time: monent
+7. Use http: axios
+
+### Run
+1. First, according to the package.json file, use the package required by the npm installation project, and enter the code `npm install` in the terminal.
+2. Then enter `npm run dev` to run the project at the terminal according to the settings in webpack.
+
+### Function realization
+1. The project can be divided into four main interfaces: home page, member, shopping cart and search page.
+2. The home page can realize news information, graphic sharing and product display functions:
+(a) News consultation can jump to the news list page (set the news list navigation bar as a global component for other pages); click on the news list to jump to the news details page to get news details.
+(b) Graphic and text sharing can jump to the graphic list page, with lazy loading function; click on the graphic to get the graphic details, realize the image preview, comment and load more functions.
+(c) Product display can jump to the product list page, realize lazy loading, pull-down refresh, pull-up and load more functions; click on the product to get the product details, and send the data to the parent component through the sub-component is to realize the function of adding the shopping cart.
+3. The shopping cart page can add and delete selected items and calculate the total price of the selected items.
+
+### Problems and solutions encountered
+1. Since there is no server in this project, the data provided by the server cannot be obtained.
+Store the data in a local json file, and use axios to access the local json data, but axios can only get the data in json through get, so in this project, add comments by operating the array method.
+
+2. Due to the plugin version upgrade, the usage was changed or was directly discarded.
+For example, the autoprefixer-loader that automatically adds multiple prefixes to css to optimize browser compatibility issues is deprecated. Now use postcss-loader with autoprefixer plugin, and configure postcss.config.js file in the root directory.
+
+### 安装依赖包
 1. webpack相关的包 webpack,html-webpack-plugin
 2. CSS样式需要的包 css-loader,style-loader,Less,Less-loader,autoprefixer-loader,mint-ui
 3. 编译ES6需要的包babel-loader,babel-core,babel-preset-es2015,babel-plugin-transform-runtime
@@ -9,7 +37,7 @@
 
 ### 运行
 1. 首先根据package.json文件利用npm安装项目所需要的包，在终端输入代码 `npm install`
-2. 然后根据webpack中的设置在终端输入 `npm run dev` 运行项目，窗口大小360*640
+2. 然后根据webpack中的设置在终端输入 `npm run dev` 运行项目.
 
 ### 功能实现
 1. 项目可以分为4个主界面:首页、会员、购物车和查找页面。
