@@ -23,4 +23,6 @@
 1. 由于本项目中没有服务端，无法得到服务端提供的数据。
     将数据存储到本地的json文件中，通过运用axios来访问本地的json数据，但是axios只能通过get来获取json中的数据，所以本项目中通过操作数组的方法实现添加评论。
 
+2. 由于插件版本升级，导致用法改变或者被直接弃用。
+    如：为css自动添加多种前缀，优化浏览器兼容问题的autoprefixer-loader被弃用，现在要使用postcss-loader并配合autoprefixer插件使用，并在需要在根目录下配置postcss.config.js文件。
 
