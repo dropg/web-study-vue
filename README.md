@@ -23,7 +23,7 @@
 1. Since there is no server in this project, the data provided by the server cannot be obtained.
 Store the data in a local json file, and use axios to access the local json data, but axios can only get the data in json through get, so in this project, add comments by operating the array method.
 
-2. Due to the plugin version upgrade, the usage was changed or was directly discarded.
+2. Due to the plugin version upgrade, the usage was changed or was directly discarded.  
 For example, the autoprefixer-loader that automatically adds multiple prefixes to css to optimize browser compatibility issues is deprecated. Now use postcss-loader with autoprefixer plugin, and configure postcss.config.js file in the root directory.
 
 ### 安装依赖包
